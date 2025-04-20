@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@theme {
+  @keyframes scrolls {
+	100% { top: -100%; }
+}
+}
