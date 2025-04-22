@@ -7,9 +7,11 @@
   <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKMAAACjCAMAAADRsl6yAAAAM1BMVEVAAAAHJVQHJVUHJlMHJlQHJlUIJlQHJ1QHJ1UIJ1QzlP80lP8ylf8zlf80lf8zlv80lv+kX2KfAAAAAXRSTlMAQObYZgAAAhRJREFUeNrt29tuwjAQhOEUBtpSBvr+T1tVlSpxSHBs8P6JNpdw4U876wOOGIZ8ah+bL1wC0Xwh3Gi80cshmi/kGvlEm2608UbjjV4g0Xwhzmi80Uslmi8kGflEm2608UbjjV480XwhwGi80esgmi+MNRpvNJ54MN5o041eGdF8YYjReKPXSDRf2NtovNF4oo03Gm/0qonmCzsZjTd6/UTzha83lhjOA94YfqVXFCTcCLgaLZoN6CnDuGEuGjzW+F00dqzxUDIyNeoBb6yYV7FEonHeHWRE1JVLaE/jQDOWDcgyXnwpYtSXQm2BZbwiihf1tVC8qG+JNOMdoXaoqId7RFY73hX+G0+AqC8+2evGCGjHkSJK75SoR4WcdpwgQqKeEhKNY0SOURoznihGjRshRIlu1CQRYdS08RhPlB4Y48s4TtxAjNLDMkYbVWCMJUp4Yxkx0ijRjW8qNYYRHwujj+CfBcTgqKUZxpCrUWmWMaKMwhs1l9jfKNHLKNGNH7OIIfdlUk0ZexqlOiOZ2N2oamI3o+qN5z5GqcFIJvY0qo3Yw6hG4+vPZVKr8dVl3DYQO73HlNrLuAQjmZjGbMeMeq1RT5/LTq3EfbZjtmNG3c24yXZ8pvGY7Zir4+9zyDLmRtjT+JVRNxF32Y7PNB6yHbMd//6Zmz8T0og5gp+zjHkuy5UnN8LcCLMdc3Vkv02oc/0Ahohg8GFznigAAAAASUVORK5CYII=">
   <link href="/src/input.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-<body>
 
+</head>
+
+<body>
+<div class="overflow-x-hidden relative w-full">
   <!-- Nav Bar -->
   <nav class="bg-deepBlue ">
      <div class="relative w-[1080px] h-[80px] mx-auto flex items-center justify-between">
@@ -21,49 +23,49 @@
 
        <ul class="flex gap-6">
 
-        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5">
+        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5 hidden lg:block">
           <a href="#">Payments</a>
           <div class="absolute bottom-2 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
         </li>
 
-        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5">
+        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5 hidden lg:block">
           <a href="#">Banking+</a>
           <div class="absolute bottom-2 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
         </li>
 
-        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5">
+        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5 hidden lg:block">
 
           <a href="#">Line of Credit</a>
           
         </li>
 
-        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5">
+        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5 hidden lg:block">
 
           <a href="#">Payroll</a>
          
         </li>
 
-        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5">
+        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5 hidden lg:block">
 
           <a href="#">Resourcess</a>
           <div class="absolute bottom-2 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
 
         </li>
 
-        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5">
+        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5 hidden lg:block">
 
           <a href="#">Support</a>
           <div class="absolute bottom-2 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-200"></div>
 
         </li>
 
-        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5">
+        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group mt-1.5 hidden lg:block">
 
           <a href="#">Pricing</a>
           
         </li>
 
-        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
+        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
           <a href="#">
             <img src="./image/india-flag.svg" class="mt-2 h-6">
           </a>
@@ -73,7 +75,7 @@
             Log in
           </button>
         </li>
-        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group ">
+        <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 relative group hidden lg:block">
 
           <button class="border py-2 px-3 border-blue-400 font-semibold bg-white text-blue-400 font-mullish rounded-sm group-hover:text-blue-600 transition-all duration-100 ">
             Sign up →
@@ -89,7 +91,7 @@
 
   <!-- Hero Section -->
   <section class="relative bg-deepBlue">
-      <div class="flex w-10/12 mx-w-[1080px] justify-between items-center mx-auto py-5">
+      <div class="flex w-10/12 mx-w-[1080px] flex-col lg:flex-row justify-between items-center mx-auto py-5">
         <!-- Left -->
         <div class="space-y-8">
           <h1 class="font-mullish text-white font-bold text-[40px] leading-[1.2]">Power your finance, grow your business</h1>
@@ -109,17 +111,17 @@
   </section>
 
   <!-- GateWay -->
-  <section class="relative max-w-[1080px] py-32 mx-auto">
+  <section class="relative max-w-[1080px] p-6 mx-auto lg:py-32">
 
         <div class="relative flex flex-col">
           <!-- Top Left Dotted Image -->
           <img src="./image/Doted1.png" alt="" 
-               class="absolute top-12 left-0 z-[-1]" 
+               class="absolute top-12 left-0 z-[-1] hidden lg:block" 
                loading="lazy" width="233" height="167">
         
           <!-- Top Right Dotted Image (rotated) -->
           <img src="./image/Doted1.png" alt="" 
-               class="absolute top-0 right-0 rotate-180 z-[-1]" 
+               class="absolute top-0 right-0 rotate-180 z-[-1] hidden lg:block" 
                loading="lazy" width="233" height="167">
         </div>
         
@@ -130,7 +132,7 @@
         
         <!-- Heading -->
         <div class="flex items-center justify-center gap-2 flex-col pt-10">
-          <h3 class="font-mullish font-semibold text-2xl">
+          <h3 class="font-mullish font-semibold text-2xl text-center">
             Accept Payments with Razorpay Payment Suite</h3>
           <div class="h-1 w-8 bg-greenLight"></div>
         </div>
@@ -143,7 +145,7 @@
 
           
 
-        <div class="flex py-12 px-7 pr-0 justify-center border-2 border-solid ... rounded-lg relative max-h-[500px]">
+        <div class="flex py-12 px-7 pr-0 justify-center border-2 border-solid ... rounded-lg relative flex-col lg:flex-row">
           <box1 class="flex flex-col gap-8 font-mullish">
 
             <h3 class="font-bold text-3xl">Supercharge your business with the all-powerful<a href="#" class="text-blue-500"> Payment Gateway</a></h3>
@@ -176,7 +178,7 @@
             
   
           </box1>
-          <box2 class="overflow-hidden">
+          <box2 class="overflow-hidden lg:block hidden">
             <img src="./image/gateway.png" alt="" srcset="">
           </box2>
         </div>
@@ -185,7 +187,7 @@
   </section>
 
   <!-- Grid Cards -->
-  <div class="relative grid grid-cols-3 overflow-visible justify-center ml-24 mr-20">
+  <div class="relative grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 overflow-visible justify-center ml-24 mr-20 items-center">
     <!-- Box 1 -->
 
      <div class="font-mullish border-2 border-solid ...  h-[240px] w-[350px] mb-7 flex flex-col gap-5 p-8 px-4 shadow-xl rounded-lg  hover:scale-95 transition-all duration-200">
@@ -197,7 +199,7 @@
      </div>
 
     <!-- Box 2 -->
-    <div class="font-mullish border-2 border-solid ...  h-[240px] w-[350px] mb-7 flex flex-col gap-5 p-8 px-4 shadow-xl rounded-lg  hover:scale-95 transition-all duration-200">
+    <div class="font-mullish border-2 border-solid ...  h-[240px] w-[350px] mb-7 flex flex-col gap-5 p-8 px-4 shadow-xl rounded-lg  hover:scale-95 transition-all duration-200 ">
 
       <h3 class="font-extrabold text-3xl">Payment Pages</h3>
       <p class="text-grayText">Take your store online instantly with zero coding. Accept international & domestic payments</p>
@@ -246,7 +248,7 @@
   </div>
 
   <!-- New Grid Cards -->
-  <div class="relative grid grid-cols-3 overflow-visible justify-center ml-24 mr-20 mt-20">
+  <div class="relative grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 overflow-visible justify-center ml-24 mr-20 mt-20">
 
    
       <img src="./image/Doted1.png" class="absolute rotate-90 right-0">
@@ -310,26 +312,26 @@
   </div>
 
   <!-- Features Section -->
-  <div class="w-full h-[950px]">
+  <div class="w-full h-[950px] max-h-[2000px]">
 
-    <img src="./image/blue bg.svg" class="absolute h-[950px]">
+    <img src="./image/blue bg.svg" class="absolute h-[950px] max-h-[1500px]">
 
     <div class="flex flex-col justify-center items-center relative top-28 font-mullish gap-4 text-white ">
 
-      <h3 class="font-extrabold text-2xl">
+      <h3 class="font-extrabold text-2xl text-center">
         Features
       </h3>
 
       <div class="h-1 w-6 bg-greenLight"></div>
 
-      <p class="text-xl">
+      <p class="text-xl text-center">
         mpower your business with all the right tools to accept <br> payments and provide the best customer experience
       </p>
 
     </div>
 
     <!-- Inner Grids -->
-    <div class="grid grid-cols-4 place-content-center top-36 relative p-10 ml-3 gap-10 text-white font-mullish">
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 place-content-center top-36 relative p-10 ml-3 gap-10 text-white font-mullish overflow-hidden">
 
       <box class="h-[250px] w-[250px]">
         <div class="flex flex-col gap-4">
@@ -409,7 +411,7 @@
       <button class="p-3 bg-blue-500 text-white font-extrabold rounded-sm hover:bg-blue-600 transition-all duration-200">Get Started →</button>
     </div>
     <div>
-      <img src="./image/infinity-scroll.png" class="h-[390px] w-[450px] pr-16">
+      <img src="./image/infinity-scroll.png" class="h-[390px] w-[450px] pr-16 movement">
     </div>
   </div>
 
@@ -674,6 +676,6 @@
 
     </div>
   </div>
-
+</div>
 </body>
 </html>
